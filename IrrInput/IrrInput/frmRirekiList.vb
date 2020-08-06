@@ -33,7 +33,7 @@
 
             ' 詳細画面に値を渡す
             objfrmRirekiDetail.rstrId = grdList.CurrentRow.Cells(10).Value   'IR実績ID
-            objfrmRirekiDetail.rintMode = 9     '照会モード
+            objfrmRirekiDetail.rintMode = 9     ' 照会モード
 
             objfrmRirekiDetail.Show(Me)
             Me.Hide()
