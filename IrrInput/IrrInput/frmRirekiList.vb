@@ -32,7 +32,7 @@
             objfrmRirekiDetail.lblLotNo.Text = grdList.CurrentRow.Cells(11).Value        'ロットNo（基本）
 
             ' 詳細画面に値を渡す
-            objfrmRirekiDetail.rstrId = grdList.CurrentRow.Cells(10).Value   'IR実績ID
+            objfrmRirekiDetail.rstrId = grdList.CurrentRow.Cells(10).Value   ' IR実績ID
             objfrmRirekiDetail.rintMode = 9     ' 照会モード
 
             objfrmRirekiDetail.Show(Me)
